@@ -1,0 +1,208 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "无课教室查询模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "查询校内各教学楼当前空闲的教室"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "无课教室"
+    },
+    {
+      "name": "reason_internet",
+      "value": "用于从学校公开页面查询教室空闲情况"
+    },
+    {
+      "name": "app_title",
+      "value": "无课教室"
+    },
+    {
+      "name": "headline_today",
+      "value": "今日无课教室"
+    },
+    {
+      "name": "filter_building",
+      "value": "楼栋"
+    },
+    {
+      "name": "filter_building_hint",
+      "value": "楼栋（加载中）"
+    },
+    {
+      "name": "filter_building_empty",
+      "value": "暂无楼栋数据"
+    },
+    {
+      "name": "filter_node_type",
+      "value": "节次类型"
+    },
+    {
+      "name": "filter_node",
+      "value": "节次"
+    },
+    {
+      "name": "filter_date",
+      "value": "日期"
+    },
+    {
+      "name": "filter_time",
+      "value": "时间段"
+    },
+    {
+      "name": "all_nodes",
+      "value": "全部节次"
+    },
+    {
+      "name": "time_all",
+      "value": "全天"
+    },
+    {
+      "name": "time_morning",
+      "value": "上午"
+    },
+    {
+      "name": "time_afternoon",
+      "value": "下午"
+    },
+    {
+      "name": "time_evening",
+      "value": "晚上"
+    },
+    {
+      "name": "time_by_node",
+      "value": "按节次"
+    },
+    {
+      "name": "toast_date_locked",
+      "value": "「按节次」只反映当前时刻；要看别的日期，请先选「全天/上午/下午/晚上」"
+    },
+    {
+      "name": "toast_date_reset",
+      "value": "「按节次」只反映当前时刻，日期已回到今天"
+    },
+    {
+      "name": "state_loading",
+      "value": "正在查询…"
+    },
+    {
+      "name": "state_empty",
+      "value": "暂无无课教室数据"
+    },
+    {
+      "name": "state_error",
+      "value": "查询失败"
+    },
+    {
+      "name": "action_retry",
+      "value": "重试"
+    },
+    {
+      "name": "action_refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "action_locate",
+      "value": "定位到当前节次"
+    },
+    {
+      "name": "action_about",
+      "value": "关于"
+    },
+    {
+      "name": "action_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "action_known",
+      "value": "我知道了"
+    },
+    {
+      "name": "action_back",
+      "value": "返回"
+    },
+    {
+      "name": "label_seat_free",
+      "value": "空座率"
+    },
+    {
+      "name": "label_no_data",
+      "value": "--"
+    },
+    {
+      "name": "label_room_unit",
+      "value": "间空闲"
+    },
+    {
+      "name": "label_current_section",
+      "value": "当前时段"
+    },
+    {
+      "name": "state_label_current",
+      "value": "进行中"
+    },
+    {
+      "name": "state_label_prev",
+      "value": "已结束"
+    },
+    {
+      "name": "state_label_next",
+      "value": "未开始"
+    },
+    {
+      "name": "ws_unavailable",
+      "value": "实时空座率暂不可用"
+    },
+    {
+      "name": "notice_degraded_config",
+      "value": "本机不支持加密能力，已用内置配置快照运行（预览器属预期现象）"
+    },
+    {
+      "name": "about_title",
+      "value": "关于"
+    },
+    {
+      "name": "about_compliance",
+      "value": "本应用为个人学习用途，数据来源于学校对外公开的网页，非学校官方应用，与学校无隶属关系。"
+    },
+    {
+      "name": "about_data_source",
+      "value": "数据来源"
+    },
+    {
+      "name": "about_version",
+      "value": "版本"
+    },
+    {
+      "name": "about_disclaimer_title",
+      "value": "免责说明"
+    },
+    {
+      "name": "about_disclaimer",
+      "value": "1. 本应用为个人学习作品，非学校官方应用，与学校及其信息化部门无任何隶属或授权关系。\n2. 数据均来自学校对外公开的网页接口，本应用不对其准确性、完整性与时效性作任何承诺。\n3. 教室空闲情况请以学校官方渠道公布的信息为准。\n4. 实时空座率依赖校内网络环境，可能出现延迟或暂时不可用。\n5. 本应用仅供个人查询参考，不得用于任何商业用途。"
+    },
+    {
+      "name": "about_source_url",
+      "value": "https://ustb.smartclass.cn/ustb/Classroom.aspx"
+    },
+    {
+      "name": "about_action_copy",
+      "value": "复制链接"
+    },
+    {
+      "name": "about_copied",
+      "value": "链接已复制"
+    },
+    {
+      "name": "about_footer",
+      "value": "本应用不收集、不上传任何个人信息。"
+    },
+    {
+      "name": "about_build_note",
+      "value": "筛选记忆与配置缓存仅保存在本机。"
+    }
+  ]
+}

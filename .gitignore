@@ -1,0 +1,16 @@
+# 构建产物
+/node_modules
+/oh_modules
+**/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+/.preview
+**/.preview
+*.log
