@@ -62,6 +62,26 @@ DEVECO_SDK_HOME="<DevEco Studio>/sdk" \
 > 用 DevEco Studio 打开工程，`File → Project Structure → Signing Configs`
 > 勾选「Automatically generate signature」即可；命令行构建只能产出未签名 HAP。
 
+## 关于 Release 里的 HAP
+
+Release 附带的 `SmartClass-for-USTB-v1.0.0-unsigned.hap` 是**未签名**产物，
+由 `assembleHap` 生成（`buildMode=debug`）。请注意：
+
+- **它不能直接安装。** HarmonyOS 要求 HAP 必须带签名才能通过 `hdc install`。
+  未签名包只适合用来验证打包结果、查看资源与 `module.json`、或作为二次签名的输入。
+- **自行签名的方式**：用 DevEco Studio 打开本工程 → 配好 Signing Configs →
+  Build → Build Hap(s)。产出的 `entry-default-signed.hap` 才能装机。
+- **包里没有个人隐私**：`ets/sourceMaps.map` 里全是相对路径（`src/main/ets/...`），
+  `ets/modules.abc`、`module.json`、`pack.info` 中均不含用户名、主目录或设备信息。
+
+校验（SHA-256）：
+
+```
+b77cfaa2d8cf5fecf8ea762241f98754393f49970ca27271bc35bc356e56cee0
+```
+
+`versionName=1.0.0` · `bundleName=com.example.smartclass` · `targetAPIVersion=26`
+
 ## 实现中的几个取舍
 
 这些是逆向原站时踩过的坑，写下来免得后人（包括我自己）重犯：

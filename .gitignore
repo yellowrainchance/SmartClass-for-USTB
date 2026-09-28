@@ -14,3 +14,4 @@
 /.preview
 **/.preview
 *.log
+.release-notes.md
